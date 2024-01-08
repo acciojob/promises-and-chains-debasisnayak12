@@ -15,13 +15,13 @@ document.getElementById('form').addEventListener('submit', (e) => {
 			}
 		}, 4000);
 	});
-	// promise
-	//  .then(() => {
-	// 	 console.log("Person is above 18");
-	//  })
-	// .catch(() => {
-	// 	console.log("Person is below 18");
-	// });
+	promise
+	 .then(() => {
+		 console.log("Person is above 18");
+	 })
+	.catch(() => {
+		console.log("Person is below 18");
+	});
 });
 
 
