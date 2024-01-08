@@ -10,7 +10,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
 				alert(`Welcome, ${name}. You can vote.`);
 				resolve();
 			}else{
-				alert(`Oh sorry ${name}. You aren't old enough`);
+				alert(`Oh sorry ${name}. You aren't old enough.`);
 				reject();
 			}
 		}, 4000);
